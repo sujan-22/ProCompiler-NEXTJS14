@@ -6,7 +6,7 @@ import Editor from "@monaco-editor/react";
 const CodeEditor = ({ language, code, setCode }) => {
     return (
         <Editor
-            height="50vh"
+            height="70vh"
             language={language}
             value={code}
             onChange={(value) => setCode(value)}
